@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Artefacts de test/smoke (on garde le modèle final model_2x2.pt et results/)
+*_smoke.pt
+*_smoke_history.json
+
+# Gardé uniquement en local, pas dans le dépôt
+LINKEDIN.md
+
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
